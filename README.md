@@ -55,7 +55,7 @@ Außerdem habe ich die aufgenommenen Screenshots der letzten Stunden bearbeitet 
 Unser Spiel soll zum einen die Möglichkeit geben seine eigenen Wahl aus Schere, Stein und Papier zu treffen, und zum anderen den Computer als Gegenspieler integrieren. 
 In dieser Stunde wollten wir uns mit der zufälligen Auswahl des Computers auseinandersetzten. Dazu haben wir vorher uns ein paar Anleitungsvideos zu Snap angeschaut, um zu verstehen, wie das mit den Variablen und if-Blöcken funktioniert. Dann haben wir uns an das Script für den ersten Sprite (Rock C.) gesetzt: 
 
-![image5]()
+![image5](https://github.com/userhg/GandH/blob/master/images/rock%20c.28.8.png)
 
 das gleiche skript haben wir dann auf das nächste Sprite (Scissors C.) angewandt, wobei wir die nummerierung verändert haben, sodass Scissors bei 2 sich zeigt. 
 Am Ende der Stunde haben wir unsere Skripts ausprobiert. Leider hat am Schluss einmal Scissors und Rock sich gleichzeitig gezeigt, sodass unsere Aufgabe für nächste Stunde es ist, herauszufinden was der Fehler ist. 
