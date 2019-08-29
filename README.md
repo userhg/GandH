@@ -63,5 +63,5 @@ Am Ende der Stunde haben wir unsere Skripts ausprobiert. Leider hat am Schluss e
 ### <a name="9"></a>Donnerstag, 29.08.2019
 Heute war Gesche nicht im Unterricht, sodass ich (Hannah) alleine an dem Projekt gearbeitet habe. Ich habe mir nocheinmal Gedanken über die letzte Stunde gemacht und den Dnekfehler in unserer Vorgehensweise gefunden. Da wir unterschiedliche Sprites benutzt haben für die einzelnen Costumes für die Auswahl des Computers und jeweils ein Script in jedem der Sprites geschrieben haben, hat beim Start des Scripts dreimal der Computer den Befehl "pick random from 1 to 3" ausgefüht. Folglich erschien nicht nur ein Costume, sondern mehrere gleichzeitig. Die selbstgedachte Lösung habe ich gleich ausprobiert, indem ich nur ein Sprite angelegt habe. Nachden dieses zufällig einen Zahl von 1 bis 3 auswählt wird dementsprechen zu jeder Zahl das passende Costume mit "change costume to..." gewechselt. 
 
-![image6]()
+![image6](https://github.com/userhg/GandH/blob/master/images/computer%20choice%2029.08.19.png)
 
