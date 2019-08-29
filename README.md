@@ -13,9 +13,11 @@
 
 [Donnerstag, 22.08.2019](#6)
 
-[Dienstag, 27.08.2019] (#7)
+[Dienstag, 27.08.2019](#7)
 
-[Mittwoch, 28.08.2019] (#8)
+[Mittwoch, 28.08.2019](#8)
+
+[Donnerstag, 29.08.2019](#9)
 
 ### <a name="1"></a>Dienstag, 13.08.2019
 In unserer ersten Informatikstunde haben wir einen kurzen Überblick über unsere Möglichkeiten für Projekte von Herrn Buhl bekommen. Dann ging es schon direkt los! Wir informierten uns über Projekte der frührenen Informatikkurse, um erste Inspirationen zu bekommen. Wir haben einige Zeit damit verbracht, uns einzulesen, da wir keinerlei Vorkenntnisse besitzen und das für uns eine komplett neue Welt ist. 
@@ -29,7 +31,7 @@ Nachdem wir uns bei GitHub angemeldet hatten, mussten wir feststellen, dass unse
 ### <a name="4"></a>Dienstag, 20.08.2019
 Heute wollten wir uns mit den verschiedenen Programmen für Anfänger auseinandersetzten, um dann zu entscheiden in welche Richtung wir in unserem Projekt gehen möchten. Zuerst besuchten wir die Seite AppLap. Dort konnten wir in einer Testversion uns durch Absolvieren verschiedener festgesetzter Aufgaben einen Überblick verschaffen. Die Aufgaben waren ziemlich simpel und einfach zu lösen. Uns gefiehl die Aufmachung des Programms, welches durch die einfachen Designes und Blöcke gut nachvollziehbar ist. Was uns jedoch an diesem Programm nicht gut gefiehl war, dass zumindest bei diesen Aufgaben keine eigene Kreativität gefordert wurde.
 
-![images] (https://github.com/userhg/GandH/blob/master/images/20.08.19%20applab.png)
+![images](https://github.com/userhg/GandH/blob/master/images/20.08.19%20applab.png)
 
 Danach schauten wir uns das Programm SNAP an und probierten einige Befehle aus. Dieses Programm gefällt uns besser und nach der Stunde haben wir uns dafür entschieden dort ein Projekt anzufangen. Wie dieses genau aussehen wird, wissen wir noch nicht.
 
@@ -58,7 +60,7 @@ In dieser Stunde wollten wir uns mit der zufälligen Auswahl des Computers ausei
 das gleiche skript haben wir dann auf das nächste Sprite (Scissors C.) angewandt, wobei wir die nummerierung verändert haben, sodass Scissors bei 2 sich zeigt. 
 Am Ende der Stunde haben wir unsere Skripts ausprobiert. Leider hat am Schluss einmal Scissors und Rock sich gleichzeitig gezeigt, sodass unsere Aufgabe für nächste Stunde es ist, herauszufinden was der Fehler ist. 
 
-### <a name="8"></a>Donnerstag, 29.08.2019
+### <a name="9"></a>Donnerstag, 29.08.2019
 Heute war Gesche nicht im Unterricht, sodass ich (Hannah) alleine an dem Projekt gearbeitet habe. Ich habe mir nocheinmal Gedanken über die letzte Stunde gemacht und den Dnekfehler in unserer Vorgehensweise gefunden. Da wir unterschiedliche Sprites benutzt haben für die einzelnen Costumes für die Auswahl des Computers und jeweils ein Script in jedem der Sprites geschrieben haben, hat beim Start des Scripts dreimal der Computer den Befehl "pick random from 1 to 3" ausgefüht. Folglich erschien nicht nur ein Costume, sondern mehrere gleichzeitig. Die selbstgedachte Lösung habe ich gleich ausprobiert, indem ich nur ein Sprite angelegt habe. Nachden dieses zufällig einen Zahl von 1 bis 3 auswählt wird dementsprechen zu jeder Zahl das passende Costume mit "change costume to..." gewechselt. 
 
 Image
