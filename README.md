@@ -35,7 +35,7 @@ Heute wollten wir uns mit den verschiedenen Programmen für Anfänger auseinande
 
 Danach schauten wir uns das Programm SNAP an und probierten einige Befehle aus. Dieses Programm gefällt uns besser und nach der Stunde haben wir uns dafür entschieden dort ein Projekt anzufangen. Wie dieses genau aussehen wird, wissen wir noch nicht.
 
-![image2]()
+![image2](https://github.com/userhg/GandH/blob/master/images/snap.png)
 
 ### <a name="5"></a>Mittwoch, 21.08.2019
 Nach ein paar Überlegungen haben wir unsere Idee für ein Projekt ausgereift. Es soll ein "rock-paper-scissors-Game" werden. Dieses möchte wir mit dem Programm SNAP erstellen. Zuerst haben wir uns einen Account auf SNAP erstellt und angefangen im Internet nach geeignten Motiven für unsere Costumes zu finden. 
@@ -53,13 +53,9 @@ Außerdem habe ich die aufgenommenen Screenshots der letzten Stunden bearbeitet 
 
 ### <a name="8"></a>Mittwoch, 28.08.2019
 Unser Spiel soll zum einen die Möglichkeit geben seine eigenen Wahl aus Schere, Stein und Papier zu treffen, und zum anderen den Computer als Gegenspieler integrieren. 
-In dieser Stunde wollten wir uns mit der zufälligen Auswahl des Computers auseinandersetzten. Dazu haben wir vorher uns ein paar Anleitungsvideos zu Snap angeschaut, um zu verstehen, wie das mit den Variablen und if-Blöcken funktioniert. Dann haben wir uns an das Script für den ersten Sprite (Rock C.) gesetzt: Image
+In dieser Stunde wollten wir uns mit der zufälligen Auswahl des Computers auseinandersetzten. Dazu haben wir vorher uns ein paar Anleitungsvideos zu Snap angeschaut, um zu verstehen, wie das mit den Variablen und if-Blöcken funktioniert. Dann haben wir uns an das Script für den ersten Sprite (Rock C.) gesetzt: 
 
-
-
-
-
-
+![image5]()
 
 das gleiche skript haben wir dann auf das nächste Sprite (Scissors C.) angewandt, wobei wir die nummerierung verändert haben, sodass Scissors bei 2 sich zeigt. 
 Am Ende der Stunde haben wir unsere Skripts ausprobiert. Leider hat am Schluss einmal Scissors und Rock sich gleichzeitig gezeigt, sodass unsere Aufgabe für nächste Stunde es ist, herauszufinden was der Fehler ist. 
@@ -67,5 +63,5 @@ Am Ende der Stunde haben wir unsere Skripts ausprobiert. Leider hat am Schluss e
 ### <a name="9"></a>Donnerstag, 29.08.2019
 Heute war Gesche nicht im Unterricht, sodass ich (Hannah) alleine an dem Projekt gearbeitet habe. Ich habe mir nocheinmal Gedanken über die letzte Stunde gemacht und den Dnekfehler in unserer Vorgehensweise gefunden. Da wir unterschiedliche Sprites benutzt haben für die einzelnen Costumes für die Auswahl des Computers und jeweils ein Script in jedem der Sprites geschrieben haben, hat beim Start des Scripts dreimal der Computer den Befehl "pick random from 1 to 3" ausgefüht. Folglich erschien nicht nur ein Costume, sondern mehrere gleichzeitig. Die selbstgedachte Lösung habe ich gleich ausprobiert, indem ich nur ein Sprite angelegt habe. Nachden dieses zufällig einen Zahl von 1 bis 3 auswählt wird dementsprechen zu jeder Zahl das passende Costume mit "change costume to..." gewechselt. 
 
-Image
+![image6]()
 
