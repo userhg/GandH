@@ -13,6 +13,10 @@
 
 [Donnerstag, 22.08.2019](#6)
 
+[Dienstag, 27.08.2019] (#7)
+
+[Mittwoch, 28.08.2019] (#8)
+
 ### <a name="1"></a>Dienstag, 13.08.2019
 In unserer ersten Informatikstunde haben wir einen kurzen Überblick über unsere Möglichkeiten für Projekte von Herrn Buhl bekommen. Dann ging es schon direkt los! Wir informierten uns über Projekte der frührenen Informatikkurse, um erste Inspirationen zu bekommen. Wir haben einige Zeit damit verbracht, uns einzulesen, da wir keinerlei Vorkenntnisse besitzen und das für uns eine komplett neue Welt ist. 
 
@@ -36,3 +40,26 @@ Mit zwei Fäusten als Costumes haben wir die Ausgangssituation des Spiels gestal
 
 ### <a name="6"></a>Donnerstag, 22.08.2019
 Heute haben wir nach weiteren Costumes gesucht und sie mit dem Script von SNAP richtig ausgerichtet und die Größe eingestellt. Dann haben wir erste Versuche gestartet, dass Spiel zu programmieren. Alle Costumes, bis auf die zwei Fäuste, dürfen am Anfang nicht zusehen sein. Dann sollen Texte auftauchen, die dem Spieler sagen, was er machen muss. Wir haben die Stunde also damit verbracht, dies einzustellen. Wir müssen immer noch viel nachlesen, daher kommen wir im Moment nur langsam voran. 
+
+### <a name="7"></a>Dienstag, 27.08.2019
+Zuhause habe ich (Gesche) weiter an unserem Projekt gearbeitet und ein Skript geschrieben welches die Symbole für Schere stein und Papier bei jeweiligen Anklicken zu der einen Faust bewegt. In der Stunde habe ich (Hannah) noch hinzugefügt, dass beim Start des Spiels die Costumes wieder zurück an den Anfang springen mit "glide to...". 
+Außerdem habe ich die aufgenommenen Screenshots der letzten Stunden bearbeitet und bei GitHub hochgeladen.
+
+### <a name="8"></a>Mittwoch, 28.08.2019
+Unser Spiel soll zum einen die Möglichkeit geben seine eigenen Wahl aus Schere, Stein und Papier zu treffen, und zum anderen den Computer als Gegenspieler integrieren. 
+In dieser Stunde wollten wir uns mit der zufälligen Auswahl des Computers auseinandersetzten. Dazu haben wir vorher uns ein paar Anleitungsvideos zu Snap angeschaut, um zu verstehen, wie das mit den Variablen und if-Blöcken funktioniert. Dann haben wir uns an das Script für den ersten Sprite (Rock C.) gesetzt: Image
+
+
+
+
+
+
+
+das gleiche skript haben wir dann auf das nächste Sprite (Scissors C.) angewandt, wobei wir die nummerierung verändert haben, sodass Scissors bei 2 sich zeigt. 
+Am Ende der Stunde haben wir unsere Skripts ausprobiert. Leider hat am Schluss einmal Scissors und Rock sich gleichzeitig gezeigt, sodass unsere Aufgabe für nächste Stunde es ist, herauszufinden was der Fehler ist. 
+
+### <a name="8"></a>Donnerstag, 29.08.2019
+Heute war Gesche nicht im Unterricht, sodass ich (Hannah) alleine an dem Projekt gearbeitet habe. Ich habe mir nocheinmal Gedanken über die letzte Stunde gemacht und den Dnekfehler in unserer Vorgehensweise gefunden. Da wir unterschiedliche Sprites benutzt haben für die einzelnen Costumes für die Auswahl des Computers und jeweils ein Script in jedem der Sprites geschrieben haben, hat beim Start des Scripts dreimal der Computer den Befehl "pick random from 1 to 3" ausgefüht. Folglich erschien nicht nur ein Costume, sondern mehrere gleichzeitig. Die selbstgedachte Lösung habe ich gleich ausprobiert, indem ich nur ein Sprite angelegt habe. Nachden dieses zufällig einen Zahl von 1 bis 3 auswählt wird dementsprechen zu jeder Zahl das passende Costume mit "change costume to..." gewechselt. 
+
+Image
+
