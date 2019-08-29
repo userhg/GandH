@@ -25,7 +25,7 @@ Nachdem wir uns bei GitHub angemeldet hatten, mussten wir feststellen, dass unse
 ### <a name="4"></a>Dienstag, 20.08.2019
 Heute wollten wir uns mit den verschiedenen Programmen für Anfänger auseinandersetzten, um dann zu entscheiden in welche Richtung wir in unserem Projekt gehen möchten. Zuerst besuchten wir die Seite AppLap. Dort konnten wir in einer Testversion uns durch Absolvieren verschiedener festgesetzter Aufgaben einen Überblick verschaffen. Die Aufgaben waren ziemlich simpel und einfach zu lösen. Uns gefiehl die Aufmachung des Programms, welches durch die einfachen Designes und Blöcke gut nachvollziehbar ist. Was uns jedoch an diesem Programm nicht gut gefiehl war, dass zumindest bei diesen Aufgaben keine eigene Kreativität gefordert wurde.
 
-![20.08.19 applab.png] (https://github.com/userhg/GandH/blob/master/images/20.08.19%20applab.png "Screenshot applap")
+![20.08.19 applab.png] (https://github.com/userhg/GandH/blob/master/images/20.08.19%20applab.png)
 
 Danach schauten wir uns das Programm SNAP an und probierten einige Befehle aus. Dieses Programm gefällt uns besser und nach der Stunde haben wir uns dafür entschieden dort ein Projekt anzufangen. Wie dieses genau aussehen wird, wissen wir noch nicht.
 
