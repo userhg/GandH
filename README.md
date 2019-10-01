@@ -19,6 +19,10 @@
 
 [Donnerstag, 29.08.2019](#9)
 
+[Mittwoch, 25.09.2019](#10)
+
+[Donnerstag, 26.09.2019](#11)
+
 ### <a name="1"></a>Dienstag, 13.08.2019
 In unserer ersten Informatikstunde haben wir einen kurzen Überblick über unsere Möglichkeiten für Projekte von Herrn Buhl bekommen. Dann ging es schon direkt los! Wir informierten uns über Projekte der frührenen Informatikkurse, um erste Inspirationen zu bekommen. Wir haben einige Zeit damit verbracht, uns einzulesen, da wir keinerlei Vorkenntnisse besitzen und das für uns eine komplett neue Welt ist. 
 
@@ -64,4 +68,10 @@ Am Ende der Stunde haben wir unsere Skripts ausprobiert. Leider hat am Schluss e
 Heute war Gesche nicht im Unterricht, sodass ich (Hannah) alleine an dem Projekt gearbeitet habe. Ich habe mir nocheinmal Gedanken über die letzte Stunde gemacht und den Dnekfehler in unserer Vorgehensweise gefunden. Da wir unterschiedliche Sprites benutzt haben für die einzelnen Costumes für die Auswahl des Computers und jeweils ein Script in jedem der Sprites geschrieben haben, hat beim Start des Scripts dreimal der Computer den Befehl "pick random from 1 to 3" ausgefüht. Folglich erschien nicht nur ein Costume, sondern mehrere gleichzeitig. Die selbstgedachte Lösung habe ich gleich ausprobiert, indem ich nur ein Sprite angelegt habe. Nachden dieses zufällig einen Zahl von 1 bis 3 auswählt wird dementsprechen zu jeder Zahl das passende Costume mit "change costume to..." gewechselt. 
 
 ![image6](https://github.com/userhg/GandH/blob/master/images/computer%20choice%2029.08.19.png)
+
+### <a name="10"></a>Mittwoch, 25.09.2019
+Nachdem wir über längere Zeit über unser Projekt nachgedacht haben und nicht richtig wußten, wie wir weiter vorgehen sollen, haben wir Herrn Buhl um Rat gefragt. Herr Buhl hat uns die Funktion des "broadcast" gezeigt. Mithilfe dieses Blocks können Nachrichten unter den einzelnen Sprites ausgetauscht werden und somit Verknüpfungen hergestellt werden. Dies hat uns sehr geholfen und wir haben diese Funktion gleich am Anfang des Spiels eingefügt, sodass die Sprites mit den Symbolen am unteren Rand erst auftauchen, nachdem "Space" gedrückt wurden und sie die Nachricht durch "when I receive..." erhalten haben. Außerdem konnten wir durch diese Methode die  zwei anderen Sprites, nachdem eines durch Anklicken ausgewählt wurde, wieder verschwieden lassen. Yeah!  
+
+### <a name="11"></a>Donnerstag, 26.09.2019
+Heute haben wir das Anklicken eines Symbols zur Wahl seines Gegenstands mit dem Block, der für die zufällige Auswahl auf Seiten des Computers zuständig ist, mit dem "broadcast" und "when I receive..."- Prinzip verknüpft. Das Problem war nur, dass nach dem Anzeigen der Wahl des Computers dieses Konzept sich durch wiederholtes Anklicken des Symbols der eigenen Wahl immer wieder von Neuem abläuft und nicht endet. Zuerst haben wir uns die aufgeführten Blocks angeschaut und den "Stop"- Block gefunden, jedoch hat dieser in mehreren Kombinationen nicht das Problem gelöst. Herr Buhl hat uns dann gezeigt, wie man dieses Anklicken des Symbols nur einmal erlauben kann und somit auch nur das zufällige Auswählen des Computers ablaufen kann. Dies wird ..... genannt.  
 
