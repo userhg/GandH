@@ -31,7 +31,12 @@
 
 [Donnerstag, 24.10.2019](#15)
 
-[Dienstag, 29.11.2019](#16)
+[Dienstag, 29.10.2019](#16)
+
+[Dienstag, 05.11.2019 - Donnerstag, 07.11.2019](#17)
+
+[Dienstag, 12.11.2019](#18)
+
 
 ### <a name="1"></a>Dienstag, 13.08.2019
 In unserer ersten Informatikstunde haben wir einen kurzen Überblick über unsere Möglichkeiten für Projekte von Herrn Buhl bekommen. Dann ging es schon direkt los! Wir informierten uns über Projekte der frührenen Informatikkurse, um erste Inspirationen zu bekommen. Wir haben einige Zeit damit verbracht, uns einzulesen, da wir keinerlei Vorkenntnisse besitzen und das für uns eine komplett neue Welt ist. 
@@ -120,10 +125,10 @@ In dieser Stunde haben wir die gleiche Methode aus der letzten Stunde auf die zw
 ![image12](https://github.com/userhg/Stundenblog/blob/master/images/Spielanfang%20endv..png)
 
 
-### <a name="16"></a>Dienstag, 05.11.2019 - Donnerstag, 07.11.2019
+### <a name="17"></a>Dienstag, 05.11.2019 - Donnerstag, 07.11.2019
 In dieser Woche haben wir in den Unterrichtsstunden unsere Projektseite auf GitHub erstellt und bearbeitet.
 
-### <a name="17"></a>Dienstag, 12.11.2019
+### <a name="18"></a>Dienstag, 12.11.2019
 Heute ist uns aufgefallen, dass durch mehrmaliges Klicken von Space die Sprites auch wieder mitten im Spiel auftauchen. Dieses Problem haben wir durch die Flag-Methode nun behoben.
 ![image13](https://github.com/userhg/Stundenblog/blob/master/images/Nospace.png)
 
