@@ -89,23 +89,41 @@ Heute haben wir das Anklicken eines Symbols zur Wahl seines Gegenstands mit dem 
 Dies haben wir auf die Sprites Rock, Paper und Scissors angewandt.
 
 ### <a name="12"></a>Mittwoch, 02.10.2019
-Wir haben ein neues Sprite eröffnet, welches für das Anzeigen "WIN, LOSE, oder TRY AGAIN" verantwortlich sein soll. Dabei haben wir uns gedacht, dass wir dieses wieder durch "Broadcast" und "Receive" programmieren können. Nachdem der Computer seine Wahl getroffen hat, schickt er eine Nachricht mit der getroffenen Auswahl an die Sprites mit den Auswahlmöglichkeiten für den Spieler. Entsprechend der Gegenstände schicken die Sprites dann entweder "LOSE", "WIN" oder "TRY AGAIN" an das neue Sprite. 
+Wir haben ein neues Sprite eröffnet, welches für das Anzeigen "WIN, LOSE, oder TRY AGAIN" verantwortlich sein soll. Dabei haben wir uns gedacht, dass wir dieses wieder durch "Broadcast" und "Receive" programmieren können. Nachdem der Computer seine Wahl getroffen hat, schickt er eine Nachricht mit der getroffenen Auswahl an die Sprites mit den Auswahlmöglichkeiten für den Spieler. 
+
+![image9](https://github.com/userhg/Stundenblog/blob/master/images/Choice%20c%20mit%20B.png)
+
+Entsprechend der Gegenstände schicken die Sprites dann entweder "LOSE", "WIN" oder "TRY AGAIN" an das neue Sprite. 
 
 ![image8](https://github.com/userhg/Stundenblog/blob/master/images/WLT%20Falsch.png)
 
-Jedoch haben wir gemerkt, dass durch diese Methode dem "Win, Lose, Try Again" Spite immer alle drei Möglichkeiten geschickt bekommt, da von nachdem der Spieler einen Gegenstand ausgewählt hat die anderen Spites mit den nicht ausgewählten Gegenständen im "versteckten" Zustand weiterlaufen und auch Nachrichten abschicken. Es müsste so sein, dass die anderen Sprites für das restliche Spiel beim "nicht anklicken" deaktiviert werden und so das Problem mit den drei gleichzeitigen Nachrichten gelöst werden würde, jedoch haben wir noch nicht herausgefunden wie dies funktioniert. Wir wollten dies mit der Flag Methode ausprobieren.
+Jedoch haben wir gemerkt, dass durch diese Methode dem "Win, Lose, Try Again" Sprite immer alle drei Möglichkeiten geschickt werden, da  nachdem der Spieler einen Gegenstand ausgewählt hat die anderen Spites mit den nicht ausgewählten Gegenständen im "versteckten" Zustand weiterlaufen und auch Nachrichten abschicken. Es müsste so sein, dass die anderen Sprites für das restliche Spiel beim "nicht anklicken" deaktiviert werden und so das Problem mit den drei gleichzeitigen Nachrichten gelöst werden würde, jedoch haben wir noch nicht herausgefunden wie dies funktioniert. Wir wollten dies mit der Flag Methode ausprobieren.
 
 ### <a name="13"></a>Dienstag, 22.10.2019
-Währen der Ferien habe ich (Hannah) den Win, Lose Try Again Spite nocheinmal überdacht und einen anderen Ansatz mir überlegt, ihn neu zu programmieren. Dazu habe die schon genutzen Variablen "userchoice" und "fistchoice" benutzt und dann mit dem "if-Block" die verschiedenen Spielausgänge als Win Try Again, oder, Lose bezeichnet. 
-In der Untertichtsstunde haben wir angefangen neue Stages zu designen, die bei entsprechendem Spielausgang auftauchen sollen und anzeigen, ob der Spieler verloren oder gewonnen hat.
+Währen der Ferien habe ich (Hannah) den Win, Lose Try Again Sprite nocheinmal überdacht und einen anderen Ansatz mir überlegt, wie ich ihn neu programmieren könnte. Dazu habe ich die schon genutzen Variablen "userchoice" und "fistchoice" benutzt und dann mit dem "if-Block" die verschiedenen Spielausgänge als Win, Try Again, oder Lose bezeichnet. 
+
+![image10](https://github.com/userhg/Stundenblog/blob/master/images/WIN%2Cl%2Cta.png)
+
+In der Unterrichtsstunde haben wir angefangen neue Stages zu designen, die bei entsprechendem Spielausgang auftauchen sollen und anzeigen, ob der Spieler verloren oder gewonnen hat.
 
 ### <a name="14"></a>Mittwoch, 23.10.2019
-Heute haben wir die drei Stages Lose, Win und Try Again fertiggestellt und sie durch broadcast messages mit den verschiedene Spielausgängen verknüpft.
+Heute haben wir die drei Stages Lose, Win und Try Again fertiggestellt und sie durch Nachrichten mit den verschiedene Spielausgängen verknüpft.
+
+![image11](https://github.com/userhg/Stundenblog/blob/master/images/Stage%20alles.png)
 
 ### <a name="15"></a>Donnerstag, 24.10.2019
 Unsere nächste "Baustelle" des Spiels ist der Anfang. Die Sprechblasen sind nicht mit den Handlungen des Spielers verknüpft und tauchen dementsprechend oft zu spät oder an falscher Stelle auf. Wir haben einige verschiedene Ansätze und Versuche gebraucht, bis wir auf die Idee gekommen sind durch Variablen und If-Blocks die Sprechblasen zu koordinieren. Zum Ende der Stunde war die erste Sprechblase an das kicken von Space angeknüpft, jedoch haben wir das Auftauchen und Verschwinden der zweiten Sprechblase aus zeitlichen Gründen nicht mehr geschafft zu programmieren.  
 
-### <a name="16"></a>Dienstag, 29.11.2019
+### <a name="16"></a>Dienstag, 29.10.2019
 In dieser Stunde haben wir die gleiche Methode aus der letzten Stunde auf die zweite Sprechblase angewandt, jedoch ist die angezeigte Anweisung auf dem Bildschirm trotz befehlen nicht verschwunden... Wir haben keinen fehler in unserem Skript gefunden und haben Herrn Buhl um rat gefragt. Er konnte sich das auch nicht erklären und hat uns durch Zeigen eines Hacks geholfen. Das Script besitzt nun am Ende den leeren Block "Say", sodass nach anklicken eines Gegenstands eine "leere Sprechblase" auftaucht und somit die vorherige verschwindet.  
 
+![image12](https://github.com/userhg/Stundenblog/blob/master/images/Spielanfang%20endv..png)
+
+
+### <a name="16"></a>Dienstag, 05.11.2019 - Donnerstag, 07.11.2019
+In dieser Woche haben wir in den Unterrichtsstunden unsere Projektseite auf GitHub erstellt und bearbeitet.
+
+### <a name="17"></a>Dienstag, 12.11.2019
+Heute ist uns aufgefallen, dass durch mehrmaliges Klicken von Space die Sprites auch wieder mitten im Spiel auftauchen. Dieses Problem haben wir durch die Flag-Methode nun behoben.
+![image13](https://github.com/userhg/Stundenblog/blob/master/images/Nospace.png)
 
