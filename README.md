@@ -38,7 +38,7 @@
 [Dienstag, 12.11.2019](#18)
 
 
-## <a name="1"></a>Dienstag, 13.08.2019
+### <a name="1"></a>Dienstag, 13.08.2019
 In unserer ersten Informatikstunde haben wir einen kurzen Überblick über unsere Möglichkeiten für Projekte von Herrn Buhl bekommen. Dann ging es schon direkt los! Wir informierten uns über Projekte der frührenen Informatikkurse, um erste Inspirationen zu bekommen. Wir haben einige Zeit damit verbracht, uns einzulesen, da wir keinerlei Vorkenntnisse besitzen und das für uns eine komplett neue Welt ist. 
 
 ### <a name="2"></a>Mittwoch, 14.08.2019
