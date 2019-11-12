@@ -84,7 +84,7 @@ Nachdem wir über längere Zeit über unser Projekt nachgedacht haben und nicht 
 ### <a name="11"></a>Donnerstag, 26.09.2019
 Heute haben wir das Anklicken eines Symbols zur Wahl seines Gegenstands mit dem Block, der für die zufällige Auswahl auf Seiten des Computers zuständig ist, mit dem "broadcast" und "when I receive..."- Prinzip verknüpft. Das Problem war nur, dass nach dem Anzeigen der Wahl des Computers dieses Konzept sich durch wiederholtes Anklicken des Symbols der eigenen Wahl immer wieder von Neuem abläuft und nicht endet. Zuerst haben wir uns die aufgeführten Blocks angeschaut und den "Stop"- Block gefunden, jedoch hat dieser in mehreren Kombinationen nicht das Problem gelöst. Herr Buhl hat uns dann gezeigt, wie man dieses Anklicken des Symbols nur einmal erlauben kann und somit auch nur das zufällige Auswählen des Computers ablaufen kann. Dies wird "FLAG" genannt.  
 
-![image7](https://github.com/userhg/Stundenblog/blob/master/images/Flag%20B.png)
+![image7](https://github.com/userhg/Stundenblog/blob/master/images/Flag%20B..png)
 
 Dies haben wir auf die Sprites Rock, Paper und Scissors angewandt.
 
