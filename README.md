@@ -129,7 +129,7 @@ In dieser Stunde haben wir die gleiche Methode aus der letzten Stunde auf die zw
 In dieser Woche haben wir in den Unterrichtsstunden unsere Projektseite auf GitHub erstellt und bearbeitet.
 
 ### <a name="18"></a>Dienstag, 12.11.2019
-Heute ist uns aufgefallen, dass durch mehrmaliges Klicken von Space die Sprites auch wieder mitten im Spiel auftauchen. Dieses Problem haben wir durch die Flag-Methode nun behoben.
+Heute ist uns aufgefallen, dass durch mehrmaliges Klicken von Space die Sprites auch wieder mitten im Spiel auftauchen. Dieses Problem haben wir durch die Flag-Methode nun behoben. Nun ist das Spiel fertig.
 
 ![image13](https://github.com/userhg/Stundenblog/blob/master/images/Nospace.png)
 
