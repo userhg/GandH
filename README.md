@@ -52,18 +52,18 @@ Heute wollten wir uns mit den verschiedenen Programmen für Anfänger auseinande
 
 ![image1](https://github.com/userhg/GandH/blob/master/images/20.08.19%20applab.png)
 
-Danach schauten wir uns das Programm SNAP an und probierten einige Befehle aus. Dieses Programm gefällt uns besser und nach der Stunde haben wir uns dafür entschieden dort ein Projekt anzufangen. Wie dieses genau aussehen wird, wissen wir noch nicht.
+Danach schauten wir uns das Programm Snap! an und probierten einige Befehle aus. Dieses Programm gefällt uns besser und nach der Stunde haben wir uns dafür entschieden dort ein Projekt anzufangen. Wie dieses genau aussehen wird, wissen wir noch nicht.
 
 ![image2](https://github.com/userhg/GandH/blob/master/images/snap.png)
 
 ### <a name="5"></a>Mittwoch, 21.08.2019
-Nach ein paar Überlegungen haben wir unsere Idee für ein Projekt ausgereift. Es soll ein "Rock-Paper-Scissors-Game" werden. Dieses möchte wir mit dem Programm SNAP erstellen. Zuerst haben wir uns einen Account auf SNAP erstellt und angefangen im Internet nach geeignten Motiven für unsere Costumes zu finden, die kostenlos downloadbar sind. 
+Nach ein paar Überlegungen haben wir unsere Idee für ein Projekt ausgereift. Es soll ein "Rock-Paper-Scissors-Game" werden. Dieses möchte wir mit dem Programm Snap! erstellen. Zuerst haben wir uns einen Account auf Snap! erstellt und angefangen im Internet nach geeignten Motiven für unsere Costumes zu finden, die kostenlos downloadbar sind. 
 Mit zwei Fäusten als Costumes für zwei Sprites haben wir die Ausgangssituation des Spiels gestaltet. Um die im Bild rechte Faust im rechten Bild richtig auszurichten haben wir im Script des Costumes "turn 180" oder "set size to 80%" ausgewählt.   
 
 ![image3](https://github.com/userhg/GandH/blob/master/images/snap%2021.8.19.png)
 
 ### <a name="6"></a>Donnerstag, 22.08.2019
-Heute haben wir nach weiteren Costumes gesucht und sie mit dem Script von SNAP richtig ausgerichtet und die Größe eingestellt. Dann haben wir erste Versuche gestartet, dass Spiel zu programmieren. Alle Costumes, bis auf die zwei Fäuste, dürfen am Anfang nicht zusehen sein. Dann sollen Texte auftauchen, die dem Spieler sagen, was er machen muss. Wir haben die Stunde also damit verbracht, dies einzustellen. Wir müssen immer noch viel überlegen, zu was die unterschiedlichen Befehle benutzt werden. Daher kommen wir im Moment nur langsam voran. 
+Heute haben wir nach weiteren Costumes gesucht und sie mit dem Script von Snap! richtig ausgerichtet und die Größe eingestellt. Dann haben wir erste Versuche gestartet, dass Spiel zu programmieren. Alle Costumes, bis auf die zwei Fäuste, dürfen am Anfang nicht zusehen sein. Dann sollen Texte auftauchen, die dem Spieler sagen, was er machen muss. Wir haben die Stunde also damit verbracht, dies einzustellen. Wir müssen immer noch viel überlegen, zu was die unterschiedlichen Befehle benutzt werden. Daher kommen wir im Moment nur langsam voran. 
 
 ### <a name="7"></a>Dienstag, 27.08.2019
 Zuhause habe ich (Gesche) weiter an unserem Projekt gearbeitet und ein Skript geschrieben welches die Symbole für Schere Stein und Papier bei jeweiligen Anklicken zu der einen Faust bewegt. In der Stunde habe ich (Hannah) noch hinzugefügt, dass beim Start des Spiels die Costumes wieder zurück an den Anfang springen mit "glide to...". 
@@ -84,7 +84,7 @@ Heute war Gesche nicht im Unterricht, sodass ich (Hannah) alleine an dem Projekt
 ![image6](https://github.com/userhg/Stundenblog/blob/master/images/Choice%20C%20richtig%201.png)
 
 ### <a name="10"></a>Mittwoch, 25.09.2019
-Nachdem wir über längere Zeit über unser Projekt nachgedacht haben und nicht richtig wußten, wie wir weiter vorgehen sollen, haben wir Herrn Buhl um Rat gefragt. Herr Buhl hat uns die Funktion des "broadcast" gezeigt. Mithilfe dieses Blocks können Nachrichten unter den einzelnen Sprites ausgetauscht werden und somit Verknüpfungen hergestellt werden. Dies hat uns sehr geholfen und wir haben diese Funktion gleich am Anfang des Spiels eingefügt, sodass die Sprites mit den Symbolen am unteren Rand erst auftauchen, nachdem "Space" gedrückt wurden und sie die Nachricht durch "when I receive..." erhalten haben. Außerdem konnten wir durch diese Methode die zwei anderen Sprites, nachdem eines durch Anklicken ausgewählt wurde, wieder verschwieden lassen. Yeah!  
+Nachdem wir über längere Zeit über unser Projekt nachgedacht haben und nicht richtig wussten, wie wir weiter vorgehen sollen, haben wir Herrn Buhl um Rat gefragt. Herr Buhl hat uns die Funktion des "broadcast" gezeigt. Mithilfe dieses Blocks können Nachrichten unter den einzelnen Sprites ausgetauscht werden und somit Verknüpfungen hergestellt werden. Dies hat uns sehr geholfen und wir haben diese Funktion gleich am Anfang des Spiels eingefügt, sodass die Sprites mit den Symbolen am unteren Rand erst auftauchen, nachdem "Space" gedrückt wurden und sie die Nachricht durch "when I receive..." erhalten haben. Außerdem konnten wir durch diese Methode die zwei anderen Sprites, nachdem eines durch Anklicken ausgewählt wurde, wieder verschwieden lassen. Yeah!  
 
 ### <a name="11"></a>Donnerstag, 26.09.2019
 Heute haben wir das Anklicken eines Symbols zur Wahl seines Gegenstands mit dem Block, der für die zufällige Auswahl auf Seiten des Computers zuständig ist, mit dem "broadcast" und "when I receive..."- Prinzip verknüpft. Das Problem war nur, dass nach dem Anzeigen der Wahl des Computers dieses Konzept sich durch wiederholtes Anklicken des Symbols der eigenen Wahl immer wieder von Neuem abläuft und nicht endet. Zuerst haben wir uns die aufgeführten Blocks angeschaut und den "Stop"- Block gefunden, jedoch hat dieser in mehreren Kombinationen nicht das Problem gelöst. Herr Buhl hat uns dann gezeigt, wie man dieses Anklicken des Symbols nur einmal erlauben kann und somit auch nur das zufällige Auswählen des Computers ablaufen kann. Dies wird "FLAG" genannt.  
@@ -117,10 +117,10 @@ Heute haben wir die drei Stages Lose, Win und Try Again fertiggestellt und sie d
 ![image11](https://github.com/userhg/Stundenblog/blob/master/images/Stage%20alles.png)
 
 ### <a name="15"></a>Donnerstag, 24.10.2019
-Unsere nächste "Baustelle" des Spiels ist der Anfang. Die Sprechblasen sind nicht mit den Handlungen des Spielers verknüpft und tauchen dementsprechend oft zu spät oder an falscher Stelle auf. Wir haben einige verschiedene Ansätze und Versuche gebraucht, bis wir auf die Idee gekommen sind durch Variablen und If-Blocks die Sprechblasen zu koordinieren. Zum Ende der Stunde war die erste Sprechblase an das kicken von Space angeknüpft, jedoch haben wir das Auftauchen und Verschwinden der zweiten Sprechblase aus zeitlichen Gründen nicht mehr geschafft zu programmieren.  
+Unsere nächste "Baustelle" des Spiels ist der Anfang. Die Sprechblasen sind nicht mit den Handlungen des Spielers verknüpft und tauchen dementsprechend oft zu spät oder an falscher Stelle auf. Wir haben einige verschiedene Ansätze und Versuche gebraucht, bis wir auf die Idee gekommen sind, durch Variablen und If-Blocks die Sprechblasen zu koordinieren. Zum Ende der Stunde war die erste Sprechblase an das Klicken von Space angeknüpft, jedoch haben wir das Auftauchen und Verschwinden der zweiten Sprechblase aus zeitlichen Gründen nicht mehr geschafft zu programmieren.  
 
 ### <a name="16"></a>Dienstag, 29.10.2019
-In dieser Stunde haben wir die gleiche Methode aus der letzten Stunde auf die zweite Sprechblase angewandt, jedoch ist die angezeigte Anweisung auf dem Bildschirm trotz befehlen nicht verschwunden... Wir haben keinen fehler in unserem Skript gefunden und haben Herrn Buhl um rat gefragt. Er konnte sich das auch nicht erklären und hat uns durch Zeigen eines Hacks geholfen. Das Script besitzt nun am Ende den leeren Block "Say", sodass nach anklicken eines Gegenstands eine "leere Sprechblase" auftaucht und somit die vorherige verschwindet.  
+In dieser Stunde haben wir die gleiche Methode aus der letzten Stunde auf die zweite Sprechblase angewandt, jedoch ist die angezeigte Anweisung auf dem Bildschirm trotz befehlen nicht verschwunden... Wir haben keinen Fehler in unserem Skript gefunden und haben Herrn Buhl um Rat gefragt. Er konnte sich das auch nicht erklären und hat uns durch Zeigen eines Hacks geholfen. Das Script besitzt nun am Ende den leeren Block "Say", sodass nach anklicken eines Gegenstands eine "leere Sprechblase" auftaucht und somit die vorherige verschwindet.  
 
 ![image12](https://github.com/userhg/Stundenblog/blob/master/images/Spielanfang%20endv..png)
 
